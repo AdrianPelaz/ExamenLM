@@ -1,0 +1,137 @@
+@font-face{
+    font-family: letra1 ;
+    src: url(fuentes\BLKCHCRY.TTF);
+}
+@font-face{
+    font-family: letra2 ;
+    src: url(fuentes\RunyTunesRevisitedNF.ttf);
+}
+body{
+    background-color: black;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+p {
+    margin-bottom: 20px;
+}
+header {
+    background: rgba(63, 63, 63, 0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+nav {
+    float: left;
+}
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+nav ul li a {
+    display: block;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+nav ul li:hover {
+    background: rgb(153, 101, 42);
+}
+.contenido {
+    padding-top: 50px;
+}
+.wrapper {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#nav{
+    font-family: letra1 ;
+    font-size: 20px;
+    color: white;
+}
+#container{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    background-color: black;
+}
+#fotoinicio{
+    width: 100%;
+}
+#norse{
+    font-family: BlackChancery;
+}
+#subtitulo{
+    font-family: letra1 ;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 5%;
+}
+#barco{
+    width: 400px;
+    height: 300px;
+    float: left;
+}
+#cuadrotexto{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#texto{
+    font-family: letra2 ;
+    color: white;
+    font-size: 25px;
+}
+#galeria{
+    margin-top: 5%;
+}
+#gallery{
+    font-family: letra1;
+    font-size: 20px;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+#img1{
+    width: 22%;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#img2{
+    width: 22%;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#img3{
+    width: 22%;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#img4{
+    width: 22%;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#nombres{
+    color: white;
+    font-size: 20px;
+    font-family: letra1;
+}
